@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: stg_platform_reporting
+    description: "Staged platform reporting obligations — DAC7 (EU), UK DPI, Canada DPI. Typed and cleaned from seed CSV."
+    columns:
+      - name: obligation_id
+        description: "Primary key — regime_framework + country_iso3"
+        tests:
+          - unique
+          - not_null
+
+      - name: country_iso3
+        description: "ISO 3166-1 alpha-3 country code"
+        tests:
+          - not_null
+
+      - name: regime_type
+        description: "Always platform_reporting for this model"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['platform_reporting']
+
+      - name: regime_framework
+        description: "Legal instrument — eu_dac7, uk_dpi, or ca_dpi"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['eu_dac7', 'uk_dpi', 'ca_dpi']
+
+      - name: is_enacted
+        description: "Whether the law has been passed and signed"
+        tests:
+          - not_null
+
+      - name: confidence_flag
+        description: "Data quality confidence level"
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['high', 'medium', 'low']
+
+      - name: complexity_score_base
+        description: "Base complexity score before revenue weighting"
+        tests:
+          - not_null
+
+      - name: source_url
+        description: "Primary source URL for this row"
+        tests:
+          - not_null
