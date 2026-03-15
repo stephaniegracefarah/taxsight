@@ -1,0 +1,29 @@
+name: 'taxsight_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'taxsight_dbt'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  taxsight_dbt:
+    raw:
+      +materialized: view
+    staging:  
+      +materialized: view
+    marts:
+      +materialized: table
+
+seeds:
+  taxsight_dbt:
+    +schema: seeds
