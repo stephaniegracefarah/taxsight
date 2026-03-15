@@ -1,0 +1,21 @@
+{
+  "country_name": "United Kingdom",
+  "country_iso3": "GBR",
+  "regime_type": "platform_reporting",
+  "regime_framework": "uk_dpi",
+  "is_enacted": true,
+  "effective_date": "2024-08-01",
+  "reporting_deadline": null,
+  "covered_activities": "Supply of goods or services through digital platforms, including food delivery, finding freelance work, letting short-term accommodation, online marketplaces, and rental accommodation websites where the platform holds or can calculate amounts paid to sellers",
+  "seller_transaction_threshold": "Fewer than 30 sales of goods in a year (combined with revenue threshold for exemption)",
+  "seller_revenue_threshold": "2,000 euros or less (approximately \u00a31,700) for fewer than 30 sales of goods in a year \u2014 this exception does not apply to provision of services, rental of transport, or rental of immoveable property",
+  "single_registration_eligible": false,
+  "penalty_financial_severity": null,
+  "penalty_operational_severity": null,
+  "penalties_description": null,
+  "source_url": "https://www.gov.uk/guidance/reporting-rules-for-digital-platforms",
+  "verbatim_quote": "You do not need to report sellers getting a total of 2,000 euros or less (approximately \u00a31,700) for fewer than 30 sales of goods in a year. This reporting exception does not apply to: the provision of services, rental of transport, rental of immoveable property",
+  "confidence_flag": "medium",
+  "last_verified_date": "2025-07-16",
+  "notes": "Source page is a high-level guidance page published 1 August 2024, last updated 22 October 2025. No reporting deadline dates, penalty details, or financial/operational severity information are explicitly stated in the extracted content. Threshold values are expressed in euros despite being UK rules. Penalties and operational consequences cannot be populated from this source alone."
+}
