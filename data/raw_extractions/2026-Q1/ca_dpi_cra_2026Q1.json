@@ -1,0 +1,21 @@
+{
+  "country_name": "Canada",
+  "country_iso3": "CAN",
+  "regime_type": "platform_reporting",
+  "regime_framework": "ca_dpi",
+  "is_enacted": true,
+  "effective_date": "2023-06-22",
+  "reporting_deadline": null,
+  "covered_activities": "The sale of goods for consideration; rental of real or immovable property (both residential and commercial); personal services (time- or task-based work performed by one or more individuals at the request of a user); rental of a means of transport; rideshare and delivery services; and any prescribed service.",
+  "seller_transaction_threshold": null,
+  "seller_revenue_threshold": null,
+  "single_registration_eligible": false,
+  "penalty_financial_severity": null,
+  "penalty_operational_severity": null,
+  "penalties_description": null,
+  "source_url": "https://www.canada.ca/en/revenue-agency/programs/about-canada-revenue-agency-cra/compliance/reporting-rules-digital-platforms.html",
+  "verbatim_quote": "The bill containing the rules received Royal Assent on June 22, 2023. The rules are contained in Part XX of the Income Tax Act and are based on the Organisation for Economic Co-operation and Development's Model Reporting Rules for Digital Platforms | OECD.",
+  "confidence_flag": "medium",
+  "last_verified_date": "2025-07-14",
+  "notes": "The source page confirms Royal Assent date of June 22, 2023 and that rules are in Part XX of the Income Tax Act. No reporting deadline, thresholds, or penalty details are explicitly stated on this page. The effective_date is set to the Royal Assent date as that is the only date provided; actual applicability date may differ and is not stated in this source. The 'single_registration_eligible' field is set to false as no such mechanism is described. Confidence is medium because several fields cannot be populated from this source alone. Page last updated 2025-08-01 per page metadata."
+}
