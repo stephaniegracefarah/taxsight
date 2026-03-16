@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Japan",
+    "country_iso3": "JPN",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2025-04-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 10,
+    "registration_threshold_usd": 32500000,
+    "local_currency_code": "JPY",
+    "local_currency_amount": 5000000000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": false,
+    "penalty_financial_severity": null,
+    "penalty_operational_severity": null,
+    "penalties_description": null,
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.vatcalc.com/japan/japan-consumption-tax-on-digital-services-update/",
+    "verbatim_quote": "designated digital platforms must collect and remit consumption tax on electronically supplied services fulfilled through their platforms",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Deemed supplier (platform taxation) rules enacted as part of Japan's 2024 Tax Reform Package, effective 1 April 2025. Applies only to non-resident digital platform operators facilitating cross-border B2C sales of electronically supplied services to Japanese consumers. Threshold is JPY 5 billion (~USD 32.5 million) in facilitated services. Standard individual/non-resident registration threshold remains JPY 10 million (~USD 65,000). Standard rate is 10% (comprising 7.8% national + 2.2% local). Designated platforms announced by NTA include Apple Store, Apple Books, Apple Podcast, AWS Marketplace, Google Play, and Nintendo eShop. Platform taxation does not apply to domestic-to-domestic transactions or non-digital goods/services such as accommodation bookings. Penalty details not explicitly stated in sources reviewed. Qualified Invoice system in effect since October 2023; non-resident providers relieved from issuing qualified invoices once platform is designated."
+  }
+]

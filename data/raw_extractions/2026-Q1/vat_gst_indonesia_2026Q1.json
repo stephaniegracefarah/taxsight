@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Indonesia",
+    "country_iso3": "IDN",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2020-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 11,
+    "registration_threshold_usd": null,
+    "local_currency_code": "IDR",
+    "local_currency_amount": 600000000,
+    "deemed_supplier_rules": false,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": null,
+    "penalty_operational_severity": null,
+    "penalties_description": null,
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.globalvatcompliance.com/globalvatnews/indonesia-introduction-of-digital-vat-and-practical-implications/",
+    "verbatim_quote": "If a foreign merchant sells its products through an Indonesian operator of an online marketplace which is appointed as VAT collector, the Indonesian operator of the online marketplace is responsible for the collection of the VAT.",
+    "confidence_flag": "medium",
+    "last_verified_date": "2026-03-16",
+    "notes": "Indonesia does not operate a classic 'deemed supplier' model; instead, online marketplace operators are appointed as VAT collectors by the Directorate General of Taxes (DGT) on a designation basis. The standard VAT rate is nominally 12% but the effective rate for most goods/services is 11% due to the DPP Nilai Lain mechanism (11/12 of 12%). The registration threshold of IDR 600 million per 12-month period (or IDR 50 million per month) is drawn from PER-12/PJ/2025 for digital/PMSE VAT; a separate threshold for the broader marketplace withholding regime (PMK 37/2025, effective 2025-07-14) has not yet been established by DGT regulation. The 'deemed_supplier_rules' field is set to false because Indonesia uses a collector-appointment model rather than a full deemed-supplier liability transfer. The law notes that platforms must also record all vendor transactions and report them to Indonesia's Directorate General of Taxes. Digital VAT applies to both B2B and B2C transactions. Original 10% VAT rate cited in 2020 sources has since been updated to 12% (effective rate 11%)."
+  }
+]

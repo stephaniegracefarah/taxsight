@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Belgium",
+    "country_iso3": "BEL",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 21,
+    "registration_threshold_usd": null,
+    "local_currency_code": "EUR",
+    "local_currency_amount": 10000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Failure to submit VAT return: EUR 1,000 per return; late submission: EUR 100 per month (max EUR 1,000); late payment: fine equal to twice the tax paid late plus 0.8% interest per month; fraud: fine equal to twice the VAT amount evaded.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.fonoa.com/countries/belgium",
+    "verbatim_quote": "Belgium applies the harmonized European Union's (EU) VAT rules for marketplace & platform operators.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Belgium follows EU-harmonised marketplace/deemed supplier rules transposed via the EU e-Commerce VAT package effective 1 July 2021. The deemed supplier provision applies when a digital platform intermediates between an underlying supplier and the final customer (Article 14a EU VAT Directive). The EUR 10,000 threshold applies to intra-EU distance sales of goods and B2C TBE/ESS services; there is no registration threshold for non-resident non-EU ESS suppliers. Resident small businesses below EUR 25,000 annual turnover may benefit from a VAT exemption scheme. Import VAT deferment is available via the ET 14000 licence. Non-EU businesses must appoint a fiscal representative. USD equivalent of registration threshold not stated in sources; local amount EUR 10,000 used. ViDA reforms (mandatory deemed supplier expansion for accommodation/transport platforms) are expected to apply from 2028/2030 but are not yet in force."
+  }
+]

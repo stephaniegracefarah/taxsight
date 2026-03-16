@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Singapore",
+    "country_iso3": "SGP",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2020-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 9,
+    "registration_threshold_usd": 73000,
+    "local_currency_code": "SGD",
+    "local_currency_amount": 100000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Late payments incur a 5% penalty, followed by 2% per month until paid, up to a maximum of 50% of tax due. Failure to register when required may lead to retrospective assessments and fines of up to 200% of tax owed. Deliberate evasion or fraudulent reporting may result in fines of up to S$10,000 (US$7,300), imprisonment for up to 7 years, and penalties equal to 3 times the tax evaded. Late filing of GST return results in SGD 200 penalty with a further SGD 200 for every month not filed, up to a maximum of SGD 10,000.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-and-digital-economy/overseas-businesses",
+    "verbatim_quote": "overseas businesses with an annual global turnover exceeding S$1 million and that make B2C supplies of remote services and/or low-value goods to customers in Singapore exceeding S$100,000 annually, will be required to register for GST in Singapore",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "OVR regime launched 1 Jan 2020 for digital services; expanded 1 Jan 2023 to all remote services (digital and non-digital) and low-value goods (LVG) valued at SGD 400 or less imported by air or post. GST rate increased from 8% to 9% on 1 Jan 2024. Two-part registration threshold: (1) global turnover >SGD 1,000,000 AND (2) B2C supplies to Singapore >SGD 100,000. The registration_threshold_usd of 73000 reflects the SGD 100,000 Singapore-supply leg per ASEAN Briefing/China Briefing (US$73,000); the global turnover leg is SGD 1,000,000 (~USD 730,000). Effective_date reflects original OVR enactment; marketplace/LVG extension effective 2023-01-01. Deemed supplier rules apply to electronic marketplace operators for both remote services and LVG. EDP (electronic distribution platform) classification applies as IRAS designates qualifying electronic marketplaces as deemed suppliers. B2C scope only under OVR; B2B handled via reverse charge. Import VAT rules apply to LVG \u2264SGD 400. Penalties sourced from aseanbriefing.com / china-briefing.com and taxually.com; IRAS official penalty schedule should be verified directly for enforcement actions."
+  }
+]

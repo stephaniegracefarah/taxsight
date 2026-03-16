@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Australia",
+    "country_iso3": "AUS",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2017-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 10,
+    "registration_threshold_usd": 49830,
+    "local_currency_code": "AUD",
+    "local_currency_amount": 75000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "high",
+    "penalties_description": "ATO may calculate unpaid GST using third-party data (bank and customs data), apply penalties for failure to register, and for Significant Global Entities (global turnover > AUD $1 billion) may impose significant administrative penalties. ATO can register penalties as a debt in courts or through relevant taxation authorities in the overseas entity's country. Failure-to-lodge penalties apply for late filing/payment. Pre-registration liability can be backdated up to four years.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://stripe.com/guides/understanding-the-tax-obligations-of-marketplaces-in-australia",
+    "verbatim_quote": "Australia requires that an EDP registers if its taxable sales to Australian customers exceeded $75,000 AUD in the past 12 months, or if the EDP expects sales to exceed that amount in the next 12 months.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Two separate effective dates apply: (1) 1 July 2017 for GST on imported digital services and products (GSTR 2017/1; EDP deemed supplier rules for digital goods commenced from this date per ATO LCR 2018/2); (2) 1 July 2018 for GST on low-value imported goods (customs value AUD 1,000 or less) per Treasury Laws Amendment (GST Low Value Goods) Act 2017 and LCR 2018/1. The effective_date field reflects the earlier EDP/digital-services commencement. The Sharing Economy Reporting Regime (SERR) introduced additional reporting obligations: ride-sharing and short-term accommodation from 1 July 2023; asset sharing, food delivery, and other services from 1 July 2024. EDP is defined to include (but is not limited to) a website, internet portal, gateway, store or marketplace. The AUD 75,000 USD equivalent (~49,830 USD) is based on the XE mid-market rate of 0.6644 AUD/USD as of 2026-03-16 and is inherently variable; the statutory threshold is denominated exclusively in AUD. B2B sales are generally out of scope (reverse charge applies to GST-registered Australian businesses). No de-registration threshold is stated in sources; registration threshold applies to both resident and non-resident EDPs."
+  }
+]

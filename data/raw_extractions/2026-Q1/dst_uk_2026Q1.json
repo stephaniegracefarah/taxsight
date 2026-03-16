@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "United Kingdom",
+    "country_iso3": "GBR",
+    "regime_type": "dst",
+    "regime_framework": "oecd_dst",
+    "is_enacted": true,
+    "effective_date": "2020-04-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "tax_rate_pct": 2.0,
+    "global_revenue_threshold_usd": null,
+    "local_revenue_threshold_usd": null,
+    "local_currency_code": "GBP",
+    "local_currency_amount": 500000000,
+    "covered_services": "Social media services, search engines, and online marketplaces provided to UK users, including associated online advertising services that facilitate online advertising and derive significant benefit from their association with the social media service, search engine or online marketplace",
+    "marketplace_applicability": true,
+    "treaty_risk_level": null,
+    "penalty_financial_severity": null,
+    "penalty_operational_severity": null,
+    "penalties_description": null,
+    "guidance_maturity": null,
+    "regulatory_attention_level": null,
+    "complexity_score_base": null,
+    "source_url": "https://www.gov.uk/government/publications/introduction-of-the-digital-services-tax/digital-services-tax",
+    "verbatim_quote": "The Digital Services Tax will apply to a group's businesses that provide a social media service, search engine or an online marketplace to UK users. These businesses will be liable to Digital Services Tax when the group's worldwide revenues from these digital activities are more than \u00a3500 million and more than \u00a325 million of these revenues are derived from UK users. If the group's revenues exceed these thresholds, its revenues derived from UK users will be taxed at a rate of 2%.",
+    "confidence_flag": "high",
+    "last_verified_date": "2025-07-15",
+    "notes": "There is an allowance of \u00a325 million, meaning the first \u00a325 million of UK-derived revenues is not subject to DST. The local_currency_amount of 500000000 reflects the worldwide revenue threshold in GBP; a separate UK user revenue threshold of \u00a325 million GBP also applies. global_revenue_threshold_usd and local_revenue_threshold_usd are null as no USD conversion is stated in the source. An exemption from the online marketplace definition applies to financial services providers. Revenue is reduced to 50% when a marketplace transaction user is normally located in a country operating a similar tax. The government has committed to dis-applying the DST once an appropriate international solution is in place. No penalties, treaty risk, guidance maturity, regulatory attention, or complexity score data are present in the source."
+  }
+]

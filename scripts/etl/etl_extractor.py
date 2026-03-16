@@ -22,17 +22,24 @@ def load_prompt(prompt_file: str) -> str:
         return f.read()
 
 def fetch_source(url: str) -> str:
-    headers = {"User-Agent": "taxsight-etl/1.0 stephanie@email.com"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+    }
     response = requests.get(url, headers=headers, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
-    # Remove scripts and styles
     for tag in soup(["script", "style", "nav", "footer"]):
         tag.decompose()
     return soup.get_text(separator="\n", strip=True)
 
-def run_extraction(prompt: str, source_url: str, source_content: str) -> dict:
+def run_extraction(prompt: str, source_url: str, source_content: str, batch_instruction: str = "") -> dict:
     client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+    
+    user_content = f"{prompt}\n\nSource URL: {source_url}\n\nSource content:\n{source_content}"
+    if batch_instruction:
+        user_content += f"\n\nIMPORTANT: {batch_instruction}"
     
     message = client.messages.create(
         model="claude-sonnet-4-6",
@@ -40,23 +47,94 @@ def run_extraction(prompt: str, source_url: str, source_content: str) -> dict:
         messages=[
             {
                 "role": "user",
-                "content": f"{prompt}\n\nSource URL: {source_url}\n\nSource content:\n{source_content}"
+                "content": user_content
             }
         ]
     )
     
     raw_text = message.content[0].text
-    
-    # Debug — show first 500 chars of response
     print(f"Claude response preview: {raw_text[:500]}")
     
-    # Strip markdown code fences if present
     if raw_text.startswith("```"):
         raw_text = raw_text.split("```")[1]
         if raw_text.startswith("json"):
             raw_text = raw_text[4:]
     raw_text = raw_text.strip()
     
+    return json.loads(raw_text)
+
+def run_research_extraction(prompt: str, country_name: str, country_iso3: str, suggested_sources: list = None) -> dict:
+    client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
+
+    sources_hint = ""
+    if suggested_sources:
+        sources_hint = f"\n\nSuggested starting sources:\n"
+        sources_hint += "\n".join(f"- {s}" for s in suggested_sources)
+
+    user_content = f"""{prompt}
+
+Country to research: {country_name} ({country_iso3})
+{sources_hint}
+
+IMPORTANT CONSTRAINTS:
+- Do maximum 2 web searches total
+- Read only the most relevant page you find
+- Focus only on marketplace/platform VAT liability and deemed supplier rules
+- Return a single JSON object immediately after finding the key facts
+- Do not do exhaustive research — find the key facts and stop
+
+Return only valid JSON — no preamble, no markdown backticks."""
+
+    message = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=3000,
+        tools=[
+            {
+                "type": "web_search_20250305",
+                "name": "web_search",
+                "max_uses": 2
+            }
+        ],
+        messages=[
+            {
+                "role": "user",
+                "content": user_content
+            }
+        ]
+    )
+
+    # Extract text from response — may contain tool use blocks
+    raw_text = ""
+    for block in message.content:
+        if hasattr(block, "text"):
+            raw_text += block.text
+
+    print(f"Claude response preview: {raw_text[:500]}")
+
+    # Find JSON in response — handle cases where Claude adds reasoning text
+    if "```" in raw_text:
+        raw_text = raw_text.split("```")[1]
+        if raw_text.startswith("json"):
+            raw_text = raw_text[4:]
+    elif "[" in raw_text:
+        raw_text = raw_text[raw_text.index("["):]
+    elif "{" in raw_text:
+        raw_text = raw_text[raw_text.index("{"):]
+
+    raw_text = raw_text.strip()
+
+    # Remove any trailing text after the JSON closes
+    if raw_text.startswith("["):
+        depth = 0
+        for i, char in enumerate(raw_text):
+            if char == "[":
+                depth += 1
+            elif char == "]":
+                depth -= 1
+                if depth == 0:
+                    raw_text = raw_text[:i+1]
+                    break
+
     return json.loads(raw_text)
 
 def save_extraction(data: dict, filename: str):

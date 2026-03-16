@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Canada",
+    "country_iso3": "CAN",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 5,
+    "registration_threshold_usd": null,
+    "local_currency_code": "CAD",
+    "local_currency_amount": 30000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Late filing of GST/HST return: penalty equal to 1% of outstanding balance plus 0.25% per month up to 12 months, plus daily compounded interest. For reporting platform operators failing to file Part XX information returns: penalties range from CAD $100 to CAD $7,500. Sellers failing to provide TIN to platform operators: CAD $500 per failure. For false statements or omitting information: greater of CAD $250 or 25% of tax owed or overclaimed. Criminal offences may apply for intentional evasion. CRA uses a prospective compliance approach except for egregious non-compliance.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/digital-economy.html",
+    "verbatim_quote": "The ETA has been amended, effective July 1, 2021, to include GST/HST provisions that generally apply to non-resident suppliers, distribution platform operators and accommodation platform operators participating in the digital economy.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Canada's federal GST rate is 5%; HST (combined federal + provincial) applies in five provinces at 13% or 15% (Ontario 13%, others 15%). The standard_rate_pct of 5 reflects the federal GST baseline only. Registration threshold of CAD $30,000 applies over a 12-month period for both resident platforms (normal regime) and non-resident platforms (simplified regime). Deemed supplier rules apply: distribution platform operators are deemed the supplier for goods sold by non-registered vendors through their platforms (fulfillment warehouse rule) and accommodation platform operators are deemed supplier when the underlying host is not GST/HST registered. A separate OECD-aligned digital platform operator reporting regime (Part XX of the Income Tax Act) took effect January 1, 2024, requiring annual seller data reporting to CRA. Import GST (5%) applies at the border on most goods; the low-value postal exemption threshold is CAD $20 for mail imports. No marketplace-specific import VAT collection regime at the border (unlike some jurisdictions); import GST is collected by CBSA from the importer of record. Provincial-level marketplace facilitator rules also exist in BC, Quebec, Manitoba, and Saskatchewan with varying thresholds and scope. USD equivalent of CAD $30,000 threshold left as null because no official USD conversion is published in the source rules. registration_threshold_usd is null as the threshold is denominated exclusively in CAD."
+  }
+]

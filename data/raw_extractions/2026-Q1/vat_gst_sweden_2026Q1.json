@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Sweden",
+    "country_iso3": "SWE",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 25,
+    "registration_threshold_usd": null,
+    "local_currency_code": "SEK",
+    "local_currency_amount": 120000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "low",
+    "penalties_description": "Late filing penalty of SEK 625, or SEK 1,250 if filed late after official notice. Late payment attracts a base interest of 3.75% plus an additional 18.75% interest for late payment.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.fonoa.com/resources/country-tax-guides/sweden",
+    "verbatim_quote": "Sweden applies the harmonized European Union's (EU) VAT rules for marketplace & platform operators.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Sweden implements EU VAT marketplace deemed supplier rules effective 1 July 2021 (EU e-commerce package). Platform/electronic interface is deemed to have bought and sold goods for VAT purposes in qualifying transactions (non-EU seller to EU consumer; imports \u2264 \u20ac150). Domestic VAT registration threshold raised to SEK 120,000 from 1 January 2025 (per PwC/Fonoa/Avalara). No registration threshold for non-resident businesses. EU-wide distance sales threshold of \u20ac10,000 (approx. SEK 99,680) applies. Non-EU businesses must appoint a fiscal representative. OSS/IOSS schemes available. Proposed 2027 reforms (ViDA alignment) may expand deemed supplier scope to intra-EU supplies. USD equivalent of SEK 120,000 registration threshold not explicitly stated in sources and therefore left null."
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "South Africa",
+    "country_iso3": "ZAF",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2019-04-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 15,
+    "registration_threshold_usd": null,
+    "local_currency_code": "ZAR",
+    "local_currency_amount": 1000000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": null,
+    "penalty_operational_severity": null,
+    "penalties_description": null,
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.vatcalc.com/south-africa/south-africa-vat-on-digital-services-by-non-residents/",
+    "verbatim_quote": "Foreign intermediary electronic marketplaces will be considered responsible for the VAT of the non-resident. This marketplace liability was introduced in April 2019.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Marketplace deemed supplier rules introduced April 2019 under section 54(2B) of the VAT Act. Amended effective 1 April 2025: intermediaries may now act on behalf of principals irrespective of the principal's VAT registration status, provided both parties agree in writing (RSM / EY sources). Principal and intermediary are jointly and severally liable for VAT on deemed supplies. Registration threshold is ZAR 1,000,000 in any consecutive 12-month period. Standard VAT rate was 15% at time of marketplace rule enactment; scheduled increases to 15.5% on 1 May 2025 and 16% on 1 April 2026 per globalvatcompliance.com. B2C low-value import VAT (removing de minimis exemption below ZAR 500) came into effect 1 September 2024. B2B exclusion from 'electronic services' definition effective 1 April 2025 means foreign suppliers serving only SA VAT-registered vendors need not register. USD equivalent of ZAR 1,000,000 registration threshold not explicitly stated in sources; left as null."
+  }
+]

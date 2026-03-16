@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Kenya",
+    "country_iso3": "KEN",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": false,
+    "standard_rate_pct": 16,
+    "registration_threshold_usd": null,
+    "local_currency_code": "KES",
+    "local_currency_amount": null,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "high",
+    "penalties_description": "Failure to register triggers late registration penalties; KRA may commence enforcement measures including intervention of other government authorities and appointment of tax agents for collection and remittance. Access to the digital marketplace in Kenya may be restricted for non-compliant suppliers.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.kra.go.ke/helping-tax-payers/faqs/vat-on-digital-marketplace-supply",
+    "verbatim_quote": "digital platforms exercising significant control over transactions are deemed principal sellers for valued added tax (VAT) purposes",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "VAT on digital marketplace supplies effective 1 January 2021 per VAT (Digital Marketplace Supply) Regulations 2020; updated by VAT (Electronic, Internet and Digital Marketplace Supply) Regulations 2023. Standard rate is 16% with no minimum registration threshold for non-resident digital marketplace suppliers (the KES 5 million threshold explicitly does not apply per Finance Act 2022 / 2023 Regulations). Deemed supplier rules confirmed by Kenya High Court on 23 October 2025 (Commissioner of Domestic Taxes v. Sendy Limited, Income Tax Appeal E137 of 2024): platforms exercising control over price-setting, dispatch, invoicing, and payment collection are deemed principal suppliers liable for VAT on full customer payment. B2C scope from April 2021; B2B scope extended from 1 July 2022. DST (1.5%) originally co-existed alongside VAT; Tax Laws (Amendment) Act 2024 (effective 27 December 2024) replaced DST with a Significant Economic Presence (SEP) tax. Import VAT on goods is handled at the point of entry, not under DMS rules. Intermediaries based in Kenya making digital marketplace supplies on behalf of foreign suppliers are required to charge and account for VAT."
+  }
+]

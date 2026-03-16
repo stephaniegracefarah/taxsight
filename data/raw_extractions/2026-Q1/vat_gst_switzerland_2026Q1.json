@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Switzerland",
+    "country_iso3": "CHE",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2025-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 8.1,
+    "registration_threshold_usd": null,
+    "local_currency_code": "CHF",
+    "local_currency_amount": 100000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "high",
+    "penalties_description": "The Federal Tax Administration (FTA) may take firmer action if platforms fail to fulfil their obligations or wrongfully fail to register as taxable companies. Enforcement powers include ordering Swiss telecom providers to block access to non-compliant platforms (network blocking modelled on online gambling framework), escalating to import bans and destruction of shipped goods for continued non-compliance. Merchants selling through platforms may retain joint/subsidiary liability if the platform fails to comply.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.vatcalc.com/switzerland/switzerland-draft-marketplace-deemed-supplier-vat-rules-2024/",
+    "verbatim_quote": "From 1 January 2025, Switzerland's Federal Tax Administration has made digital platforms or online marketplace responsible for the VAT collections and remittance on low-value consignments (imported or already on Swiss territory) being sold to consumers by third-party sellers.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Standard VAT rate is 8.1%; a planned increase to 8.8% in 2026 has been referenced in sources but not yet enacted. Deemed supplier rules apply to goods only \u2014 digital services are currently excluded from the deemed supplier regime (though a public consultation to extend to digital services is open until 19 March 2026). The CHF 100,000 registration threshold applies to annual low-value consignment sales and is expressed in CHF; no official USD equivalent was stated in sources. Low-value consignment VAT exemption threshold is CHF 62 (standard rate) or CHF 193 (reduced rate), where import VAT would be less than CHF 5. VAT Act revision approved 16 June 2023. Platforms facilitating services (transport, accommodation, rentals) are excluded from the 2025 deemed supplier scope. Sellers remain subsidiarily liable if platforms fail to comply."
+  }
+]

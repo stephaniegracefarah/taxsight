@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "United Kingdom",
+    "country_iso3": "GBR",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 20,
+    "registration_threshold_usd": null,
+    "local_currency_code": "GBP",
+    "local_currency_amount": 90000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Late registration penalties and VAT underdeclaration liability apply to non-compliant overseas sellers. Online marketplaces must retain electronic records for at least six years. Goods may be blocked at customs and platforms may remove non-compliant sellers.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.avalara.com/blog/en/europe/2021/01/2021-eu-marketplaces-vat-deemed-supplier.html",
+    "verbatim_quote": "UK ecommerce marketplace deemed supplier rules were introduced on 1 January 2021.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Deemed supplier rules currently apply only to non-UK-established sellers; UK-established sellers benefit from the \u00a390,000 registration threshold and account for their own VAT. Two scenarios trigger OMP deemed supplier status: (1) goods located outside the UK at point of sale with consignment value \u00a3135 or less; (2) goods located inside the UK at point of sale where the seller is an overseas business (any value). Goods above \u00a3135 use standard import VAT procedures. As of late 2025, the UK government is reviewing a potential extension of deemed supplier rules to all marketplace sellers regardless of establishment, but no legislation has been enacted. The \u00a390,000 registration threshold is in GBP; no USD equivalent is officially stated in sources. standard_rate_pct of 20% is the UK standard VAT rate per source context (French/Italian rates cited comparatively; UK 20% is well-established). registration_threshold_usd set to null as no USD conversion is stated in sources."
+  }
+]

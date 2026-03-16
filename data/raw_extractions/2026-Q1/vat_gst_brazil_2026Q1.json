@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Brazil",
+    "country_iso3": "BRA",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2026-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": false,
+    "standard_rate_pct": 26.5,
+    "registration_threshold_usd": null,
+    "local_currency_code": "BRL",
+    "local_currency_amount": null,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "high",
+    "penalties_description": "A 3-month penalty-free testing period applies once CBS and IBS regulations are published in 2026; after this window closes, incomplete or incorrect invoice reporting may trigger fines, loss of credits, and operational disruption. Between 1 January and 30 April 2026 there is a waiver of most penalties for failure to e-invoice CBS and IBS taxes correctly. If neither supplier nor platform registers, taxes may be withheld by financial institutions handling remittances.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "critical",
+    "complexity_score_base": 9,
+    "source_url": "https://www.vatcalc.com/brazil/brazil-vat-non-resident-digital-services-providers-marketplaces-2026/",
+    "verbatim_quote": "The new proposals also make facilitating marketplaces or similar digital platforms liable for CBS and IBS collections.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Brazil enacted Complementary Law 214/2025 on 17 January 2025, establishing a dual VAT regime (CBS at federal level + IBS at state/municipal level) replacing five existing taxes (PIS, COFINS, IPI, ICMS, ISS). The combined reference rate is approximately 26.5% (CBS 8.8% + IBS 17.7%), though final supplementary legislation setting exact rates is still pending as of the publication dates reviewed. The marketplace/platform rules under Supplementary Law 214/2025 make digital platforms liable for CBS and IBS where they control T&Cs, payments, or delivery; platforms facilitating only listings or payments are excluded. A secondary law, Complementary Law 227/2026 (published 13 January 2026), further clarifies digital platform compliance obligations. 2026 is a pilot/test year with symbolic rates (CBS 0.9%, IBS 0.1%) shown on invoices but not collected; full CBS collection begins 1 January 2027; full IBS phase-in runs 2029\u20132032, with complete migration by 2033. Registration threshold for foreign non-resident platforms is nil \u2014 any taxable activity triggers registration. No specific USD or BRL registration threshold was found in the sources. The b2c_scope is explicitly confirmed; b2b scope is also indicated but some ambiguity remains in guidance. Import VAT rules confirmed: imported goods and services including digital ones subject to CBS/IBS. Penalty regime: 3-month penalty-free testing window after regulations published in 2026, then financial penalties and loss of credits apply; financial severity rated medium (penalty-free window and offsets available initially), operational severity rated high (e-invoicing mandatory, invoice is primary compliance vehicle). Guidance maturity rated 'developing': framework is legislated but key operational regulations are still pending. Regulatory attention rated 'critical' given scale of reform and mandatory platform registration. Complexity score 9/10 reflecting one of the world's most complex and layered tax transitions."
+  }
+]

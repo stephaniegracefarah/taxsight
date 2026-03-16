@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Austria",
+    "country_iso3": "AUT",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 20,
+    "registration_threshold_usd": null,
+    "local_currency_code": "EUR",
+    "local_currency_amount": 55000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Late VAT return submission: penalty up to 10% of VAT due. Late payment: 2% of total payable VAT. Second penalty of 1% if unpaid three months after due date. Third penalty of 1% if still unpaid three months after the second penalty.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.fonoa.com/resources/country-tax-guides/austria",
+    "verbatim_quote": "Austria applies the harmonized European Union's (EU) VAT rules for marketplace & platform operators.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Austria implements the EU harmonized marketplace deemed supplier rules effective 1 July 2021 (EU VAT e-commerce package). The deemed supplier provision treats the marketplace as having received and supplied goods itself, splitting the transaction into a deemed B2B supply (underlying supplier to marketplace) and a deemed B2C supply (marketplace to final customer). This applies to: (1) supplies of goods from non-EU established sellers to EU customers regardless of value, and (2) import goods valued up to EUR 150 via IOSS. For electronically supplied services (ESS) sold via an intermediary/marketplace, the intermediary is also deemed to have received and supplied the services, shifting VAT liability to the intermediary. Austria also maintains a national platform liability regime (pre-existing, noted as the 'Austrian model') in addition to the EU harmonized rules. Platforms were required to report certain data on supplies to Austrian private individuals from January 2020; as of 1 July 2021, those recording obligations were replaced by the general EU VAT regulations. Registration threshold for domestic established sellers: EUR 55,000 (raised from EUR 35,000 effective 1 January 2025). No threshold for non-established/non-EU sellers. EU-wide distance selling threshold of EUR 10,000 applies for OSS eligibility. The EUR 55,000 USD equivalent is not explicitly stated in sources; USD conversion not provided. Standard VAT rate 20%; reduced rates of 10% and 13% exist."
+  }
+]

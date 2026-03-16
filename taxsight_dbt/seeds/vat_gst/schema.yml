@@ -1,0 +1,9 @@
+version: 2
+
+seeds:
+  - name: vat_gst
+    config:
+      column_types:
+        local_currency_amount: BIGINT
+        registration_threshold_usd: BIGINT
+        complexity_score_base: INTEGER

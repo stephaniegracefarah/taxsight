@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "United Arab Emirates",
+    "country_iso3": "ARE",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2018-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 5,
+    "registration_threshold_usd": 102101,
+    "local_currency_code": "AED",
+    "local_currency_amount": 375000,
+    "deemed_supplier_rules": false,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Fixed AED 10,000 fine for late VAT registration; VAT may be backdated from the date the threshold was first exceeded. Both fixed and tax-geared penalties apply for non-compliance with VAT obligations.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 6,
+    "source_url": "https://tax.gov.ae/en/services/vat.registration.aspx",
+    "verbatim_quote": "Non-resident businesses: VAT registration is mandatory if the business makes taxable supplies in the UAE, even if the value of supplies does not exceed the threshold, unless there is another party in the UAE responsible for settling the VAT on those supplies.",
+    "confidence_flag": "medium",
+    "last_verified_date": "2026-03-16",
+    "notes": "The UAE VAT law (Federal Decree-Law No. 8 of 2017) does not contain codified 'deemed supplier' marketplace rules equivalent to the EU VAT e-commerce package or UK model. Platform liability arises indirectly: non-resident suppliers must register for VAT from their first B2C sale with no threshold; where no other party is obligated to pay VAT, the non-resident supplier itself must register. As of the 2026 amendments (effective 1 January 2026), the emphasis is on enforcement and clarification of intermediary roles rather than legislative expansion of deemed supplier rules. The IBFD source notes that 'this presumption is not codified in the legislation' for GCC marketplace deemed supplier rules. The registration_threshold_usd of ~102,101 applies to UAE-resident businesses only (AED 375,000 at approx. 0.272 USD/AED); no threshold applies to non-residents. USD conversion is approximate. deemed_supplier_rules set to false as no formal codified marketplace deemed supplier legislation has been enacted as of the research date."
+  }
+]
