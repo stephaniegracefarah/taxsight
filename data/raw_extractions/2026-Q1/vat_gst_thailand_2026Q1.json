@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Thailand",
+    "country_iso3": "THA",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-09-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 7,
+    "registration_threshold_usd": null,
+    "local_currency_code": "THB",
+    "local_currency_amount": 1800000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Civil and criminal penalties apply for noncompliance. If an e-Service VAT provider has assets or bank accounts in Thailand, the Revenue Department may seize them under Section 12 of the Revenue Code. Non-resident platforms operating under the simplified SVE system cannot issue tax invoices and cannot offset input VAT (pay-only system).",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 6,
+    "source_url": "https://www.vatcalc.com/thailand/thailand-vat-on-foreign-digital-services-september-2021/",
+    "verbatim_quote": "electronic platforms or marketplaces may have to take on the indirect tax obligation",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Marketplace/platform VAT liability under the e-Service regime (Revenue Code Amendment Act No. 53, B.E. 2564) covers only electronic/digital services delivered to non-VAT-registered (B2C) customers in Thailand; physical goods sold via platforms fall under separate Customs Department rules. A temporary measure imposing 7% VAT on low-value imports (under 1,500 THB) via the Customs Department has been in effect since July 5, 2024, extended through December 31, 2025; a full platform-based collection model for physical goods (deemed supplier for imports) is slated to take effect January 1, 2026 but is not yet fully enacted as a Revenue Code amendment. The 7% VAT rate is a temporary reduced rate (standard statutory rate is 10%); it has been extended multiple times and was extended through at least September 30, 2025. The THB 1.8 million registration threshold applies per accounting/calendar year. USD equivalent of registration threshold not explicitly stated in sources; USD amount left null. B2B transactions use the reverse-charge mechanism and are excluded from the platform's remittance obligation."
+  }
+]

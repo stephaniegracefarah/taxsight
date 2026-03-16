@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Argentina",
+    "country_iso3": "ARG",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2018-06-27",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 21,
+    "registration_threshold_usd": null,
+    "local_currency_code": "ARS",
+    "local_currency_amount": 750000,
+    "deemed_supplier_rules": false,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "high",
+    "penalties_description": "Late payment penalty ranges from 1 to 3 times the amount due; late filing penalty is ARS 200 per return for individuals and ARS 400 per return for companies. Non-payment of VAT owed attracts a penalty of 100% of the amount owed. Fraudulent activities may face fines ranging from two to six times the amount of tax owed, and imprisonment in extreme cases. Late registration may result in inability to operate any commercial activity plus financial penalties.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://vatabout.com/argentina-vat-2025-digital-platform-rules",
+    "verbatim_quote": "With new rules in place, effective since December 1, 2025, a seller is now regarded as habitual if they either complete at least ten sales in a single month with total sales of ARS 750,000 (around USD 520)",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Argentina does not have formal 'deemed supplier' rules transferring full VAT liability to the marketplace as a principal; instead, under General Resolution 5319/2023 (amended by GR 5794/2025 effective December 1, 2025), digital platforms act as VAT withholding agents for sales by registered, Monotributo, and qualifying unregistered sellers \u2014 not as deemed resellers. The registration_threshold_usd is null because there is no registration threshold for non-resident businesses (all sales are potentially taxable from the first transaction). The local_currency_amount of ARS 750,000 reflects the 2025 habitual-seller activity threshold for platform withholding obligations under GR 5794/2025, not a registration threshold. As of September 1, 2024, the VAT withholding regime no longer applies to payments made through electronic systems (GR 5553/2024); primary collection responsibility shifted to the recipient/customer via self-assessment unless AFIP/ARCA specifically instructs a payment service provider to withhold. Fonoa explicitly states 'Argentina does not have specific VAT rules for marketplaces or platform operators' in the classical deemed-supplier sense. Import VAT applies at 21% on CIF value plus import duty for physical goods. The original effective date of June 27, 2018 refers to implementation of Law 27,430 digital services VAT rules. A proposed 'Super IVA' reform has been mentioned for 2026 but is not yet enacted. Currency: Argentine Peso (ARS). Multiple overlapping resolutions (4240/2018, 5319/2023, 5553/2024, 5794/2025) make this regime complex and rapidly evolving."
+  }
+]

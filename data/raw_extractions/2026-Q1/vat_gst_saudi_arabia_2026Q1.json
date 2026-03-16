@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Saudi Arabia",
+    "country_iso3": "SAU",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2026-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 15,
+    "registration_threshold_usd": null,
+    "local_currency_code": "SAR",
+    "local_currency_amount": 375000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "high",
+    "penalties_description": "Non-compliance may result in unexpected tax liabilities for either party. Misclassification of transactions could lead to disputes or litigation. Increased risk of penalties for non-compliance. Platforms are directly liable for unreported/unremitted VAT as deemed suppliers.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://www.vatcalc.com/saudi-arabia/saudi-arabia-marketplace-deemed-supplier-2026/",
+    "verbatim_quote": "After 1 January 2026, Article 47 of the Implementing Regulations will include new obligations for electronic marketplaces and other parties involved in the supply of electronic services.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Deemed supplier rules under revised Article 47 of the VAT Implementing Regulations were introduced via ZATCA Board Resolution No. (01-06-24), published 18 April 2025. The marketplace deemed supplier provisions became effective 1 January 2026. The domestic VAT registration threshold of SAR 375,000 applies to resident suppliers; non-resident suppliers and non-resident digital service providers have no threshold. The standard VAT rate is 15%. Exemptions from deemed supplier status exist where: (a) the non-resident supplier is clearly identified as principal in all documentation, and (b) the marketplace does not set terms, pricing, collect payment, handle complaints, or offer promotions. Similar rules apply where a resident but non-VAT-registered supplier is intermediated. Food delivery and short-term accommodation platforms are specifically highlighted as commonly captured sectors. Certain provisions from the April 2025 amendments take effect immediately, others within 180 days, and some from 1 June 2026."
+  }
+]

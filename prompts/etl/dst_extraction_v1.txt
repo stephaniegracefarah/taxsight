@@ -1,0 +1,37 @@
+You are a data extraction specialist. Extract only what is explicitly stated in the source.
+
+Extract the following fields for each country's Digital Services Tax (DST):
+
+- country_name: full country name
+- country_iso3: ISO 3166-1 alpha-3 code
+- regime_type: always "dst"
+- regime_framework: always "oecd_dst"
+- is_enacted: true/false
+- effective_date: YYYY-MM-DD
+- applies_to_platform: true/false
+- has_revenue_threshold: true (DSTs always have revenue thresholds)
+- tax_rate_pct: numeric percentage (e.g. 3.0)
+- global_revenue_threshold_usd: numeric USD amount
+- local_revenue_threshold_usd: numeric USD amount
+- local_currency_code: ISO 4217 code
+- local_currency_amount: numeric amount in local currency
+- covered_services: text description
+- marketplace_applicability: true/false
+- treaty_risk_level: low/medium/high
+- penalty_financial_severity: low/medium/high
+- penalty_operational_severity: low/medium/high
+- penalties_description: text description
+- guidance_maturity: nascent/developing/mature
+- regulatory_attention_level: low/medium/high/critical
+- complexity_score_base: integer 1-10
+- source_url: the URL provided
+- verbatim_quote: exact quote from source supporting key fields
+- confidence_flag: high/medium/low
+- last_verified_date: today's date YYYY-MM-DD
+- notes: any caveats
+
+Rules:
+- Return only a valid JSON array — no preamble, no markdown backticks
+- Never infer values not in the source
+- If a field is not present, return null
+- One object per country

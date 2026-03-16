@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Norway",
+    "country_iso3": "NOR",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2020-04-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 25,
+    "registration_threshold_usd": null,
+    "local_currency_code": "NOK",
+    "local_currency_amount": 50000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "high",
+    "penalties_description": "Norwegian Tax Administration may retrospectively assess unpaid VAT for up to several years, plus penalty tax of up to 20% of unpaid VAT and statutory interest from original due date. Customs authorities may block or delay shipments. Non-compliant platforms face increased scrutiny, removal from payment or logistics networks, and contractual disputes.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.vatcalc.com/norway/norway-ends-import-vat-exemption-sales-vat-due-on-imported-b2c-sales-below-nok-3000-voec/",
+    "verbatim_quote": "Facilitating marketplaces or electronic 'intermediaries' will also take on responsibilities for charging sales VAT on certain seller transactions.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "VOEC scheme originally enacted 1 April 2020; material amendments (abolition of NOK 350 de minimis, mandatory digital VOEC transmission) effective 1 January 2024. Deemed supplier rules are mandatory \u2014 underlying supplier and intermediary cannot contractually reassign VAT liability. VOEC applies to low-value goods (per-item value below NOK 3,000) and remotely deliverable services. Registration threshold is NOK 50,000 turnover in Norway within a 12-month period; no direct USD equivalent stated in sources. Standard VAT rate is 25%. Foodstuffs, alcohol, tobacco, and excise goods are excluded from VOEC and subject to border collection. Norway is noted as the first European country to implement such a system, predating the EU's July 2021 e-commerce VAT package."
+  }
+]

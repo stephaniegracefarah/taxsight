@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Germany",
+    "country_iso3": "DEU",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 19,
+    "registration_threshold_usd": null,
+    "local_currency_code": "EUR",
+    "local_currency_amount": 25000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "If VAT is paid late, penalty interest is charged at 1% per month of the tax liability. If a VAT return is filed late, a fine of up to 10% of the assessed tax amount may be imposed, up to a maximum of EUR 25,000. Interest is also imposed at 0.5% per month.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://www.fonoa.com/resources/country-tax-guides/germany",
+    "verbatim_quote": "Germany applies the harmonized European Union's (EU) VAT rules for marketplace & platform operators.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Deemed supplier rule codified in Section 3, Paragraph 3a of the German VAT Act (UStG), effective as part of the EU VAT Digital Package from July 1, 2021. Applies to B2C deliveries via electronic interfaces where the underlying seller is established in a third country outside the EU. Domestic registration threshold is EUR 25,000 (net, prior year) as of 2025 per the Annual Tax Act 2024; non-resident and non-EU sellers face a nil registration threshold. The intra-EU distance-selling threshold is EUR 10,000. ViDA will extend deemed supplier rules to B2B transactions starting 2027. Platforms facilitating short-term rentals and passenger transport will be brought under the deemed supplier regime from January 1, 2030, with optional early adoption by Member States from July 1, 2028. Registration threshold USD equivalent not provided \u2014 EUR amount used instead."
+  }
+]

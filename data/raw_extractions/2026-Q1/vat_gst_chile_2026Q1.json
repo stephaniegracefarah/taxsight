@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Chile",
+    "country_iso3": "CHL",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2025-10-25",
+    "applies_to_platform": true,
+    "has_revenue_threshold": false,
+    "standard_rate_pct": 19,
+    "registration_threshold_usd": null,
+    "local_currency_code": "CLP",
+    "local_currency_amount": null,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "If a digital platform fails to enrol in the Simplified Tax Regime, the Chilean Internal Revenue Service is empowered to require payment card issuers and electronic payment operators to collect, declare, and pay the applicable VAT. Taxpayers who do not prove compliance with tax obligations to platform operators are subject to advance VAT withholding by the intermediary, not exceeding the current VAT rate.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.ibanet.org/Chile-VAT-new-regulations-B2C-sales-transactions-on-digital-marketplaces",
+    "verbatim_quote": "Law No 21,713 on Compliance with Tax Obligations, enacted on 25 October 2024, incorporates relevant changes on the tax treatment applicable to the international business to consumer (B2C) digital trade of goods.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Deemed supplier rules for marketplaces effective 25 October 2025 per Law No 21,713 (enacted 25 October 2024). No VAT registration threshold. Platforms are deemed suppliers for transactions where neither seller nor buyer is locally VAT-registered. Import VAT now applies to low-value goods (consignments at or below USD 500), removing prior exemption for imports below USD 41. A further bill proposing expanded deemed supplier rules and updated place-of-supply rules is proposed from January 2027. B2B transactions are excluded; reverse charge applies. Periodic compliance verification by platforms required from January 2026. Standard VAT rate is 19%."
+  }
+]

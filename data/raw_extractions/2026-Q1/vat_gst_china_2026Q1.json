@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "China",
+    "country_iso3": "CHN",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2026-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 13,
+    "registration_threshold_usd": null,
+    "local_currency_code": "CNY",
+    "local_currency_amount": 5000000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Violations subject to enforcement under China's Tax Collection and Administration Law. The new VAT Law outlines penalties for non-compliance; specific penalty quantum deferred to the Tax Administration Law.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://www.globalvatcompliance.com/globalvatnews/china-digital-platform-vat/",
+    "verbatim_quote": "Under the DPI framework, a digital platform that facilitates transactions between sellers and customers may be required to act as the VAT intermediary for supplies made through the platform.",
+    "confidence_flag": "medium",
+    "last_verified_date": "2026-03-16",
+    "notes": "China's consolidated VAT Law (passed 25 December 2024) and its Implementation Regulations both took effect 1 January 2026, replacing the Interim VAT Regulations. The Digital Platform Intermediary (DPI) framework places VAT reporting and, in some cases, payment obligations on platforms facilitating transactions; full deemed-supplier rules are still evolving and Detailed Implementation Regulations are awaited. The general-taxpayer registration threshold is CNY 5 million annual taxable sales; small-scale taxpayers below CNY 5 million use a simplified 3% levy rate (temporarily reduced to 1% through 31 December 2027). Standard rate of 13% applies to most goods; 9% and 6% apply to specified services. Import VAT collected by customs at point of entry. No explicit USD registration threshold is published; the CNY 5 million figure (~USD 690,000 at approximate exchange) is the statutory threshold. Overseas businesses face administrative barriers to VAT registration as no formal non-resident registration procedure has yet been established. Marketplace/platform obligations for foreign-established operators remain nascent and continue to evolve. USD equivalent of CNY 5 million threshold is an approximation and is not stated in source."
+  }
+]

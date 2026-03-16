@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "India",
+    "country_iso3": "IND",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2017-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": false,
+    "standard_rate_pct": 18,
+    "registration_threshold_usd": null,
+    "local_currency_code": "INR",
+    "local_currency_amount": null,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": false,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Late filing penalty: INR 100/day under CGST + INR 100/day under SGST (total INR 200/day), capped at INR 5,000 per return (GSTR-3B and GSTR-1). Late payment of tax: INR 20,000 or 10% of tax due, whichever is higher, plus interest at 18% per annum. Failure to collect/pay TCS attracts interest under Section 52(6) and penalty under Section 122(vi). Platforms may be penalised under Section 122(1B) for allowing unregistered persons to supply goods or services through their platform. Deputy Commissioner may issue notice to ECO to furnish details within 15 working days.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://www.fonoa.com/resources/country-tax-guides/india",
+    "verbatim_quote": "Marketplace and platform operators are treated as e-commerce operators (ECO) who, directly or indirectly, own, operate or manage an electronic platform which is engaged in facilitating the supply of any goods and/or services.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "India's GST marketplace framework is codified in the CGST Act, 2017 (effective 1 July 2017). Two parallel mechanisms govern platform tax obligations: (1) Section 52 \u2014 ECOs must collect Tax Collected at Source (TCS) at 0.5% (reduced from 1% effective 10 July 2024 for intra-state supplies) on net taxable value of supplies made by third-party sellers where consideration passes through the ECO, reported monthly in GSTR-8; (2) Section 9(5) \u2014 for specified notified services (passenger transport, accommodation, housekeeping, restaurant/cloud kitchen), the ECO is deemed the supplier and must pay full GST as if it were the supplier, irrespective of the underlying supplier's registration status \u2014 this is a partial deemed-supplier rule limited to enumerated service categories, not a blanket deemed-supplier rule covering all goods/services. GST registration is mandatory for all e-commerce operators and for all sellers supplying through an ECO, irrespective of turnover (Section 24 CGST Act) \u2014 meaning registration_threshold_usd and local_currency_amount are null/not applicable for marketplace participants. Standard domestic registration thresholds (INR 4,000,000 for goods / INR 2,000,000 for services in normal states) do NOT apply to marketplace sellers or ECOs. OIDAR services (digital/electronically supplied services) are subject to 18% GST; no registration threshold applies to foreign OIDAR suppliers. The standard GST rate for most services and digital services is 18%; India's multi-slab structure (0%, 5%, 12%, 18%, 28%) means 18% is reported here as the dominant/standard rate for marketplace digital services. The GST 2.0 reform launched 22 September 2025 aims to simplify rate structure; Bajaj Finance/GST Council sources indicate ongoing rationalisation toward 5%/18%/40% slabs, but 18% remains the standard rate for digital/IT services as of March 2026. No specific import VAT/GST rules analogous to EU IOSS exist for imported goods via marketplaces \u2014 reverse charge under IGST applies to cross-border B2B; B2C OIDAR rules address digital imports. Equalization Levy (a separate digital services tax, not GST) also applies to certain e-commerce operators \u2014 not captured in this GST-focused record."
+  }
+]

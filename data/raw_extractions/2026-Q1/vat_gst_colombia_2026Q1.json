@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Colombia",
+    "country_iso3": "COL",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2018-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": false,
+    "standard_rate_pct": 19,
+    "registration_threshold_usd": null,
+    "local_currency_code": "COP",
+    "local_currency_amount": null,
+    "deemed_supplier_rules": false,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": false,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Late filing penalty of 5% of total tax due per month or fraction, up to 100% maximum; increases to 10% per month (up to 200%) after tax authority summons. Separate penalty of 10% of bank deposits or gross income for unfiled returns. Return correction penalty of 10% of the greater value to be paid.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "medium",
+    "complexity_score_base": 5,
+    "source_url": "https://www.fonoa.com/resources/country-tax-guides/colombia",
+    "verbatim_quote": "Colombia does not have specific VAT rules for marketplaces or platform operators.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Colombia imposed VAT on foreign digital service providers from 1 July 2018. No deemed supplier or marketplace facilitator rules exist as of the research date. VAT collection responsibility for B2C digital transactions falls on local banks, credit card issuers, and payment processors via a withholding mechanism \u2014 not on the marketplace platform itself. Foreign suppliers may optionally self-register with DIAN instead. No registration threshold: obligations triggered from the first B2C sale. B2B transactions handled via reverse charge. A legislative proposal to extend rules to resident digital platforms was noted but not enacted. Standard VAT rate is 19%. No import VAT-specific marketplace rules identified."
+  }
+]

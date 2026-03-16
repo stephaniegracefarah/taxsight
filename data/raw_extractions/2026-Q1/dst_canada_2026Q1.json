@@ -1,0 +1,42 @@
+[
+  {
+  "_manual_edit": {
+  "edited_by": "Stephanie Farah",
+  "edited_at": "2026-03-15",
+  "reason": "Canada.ca source page only contained a brief summary — Claude extraction returned mostly null fields with confidence_flag low. Manually populated with verified data from secondary sources.",
+  "secondary_sources": [
+    "https://www.pwc.com/us/en/services/tax/library/canadas-digital-services-tax-act-enters-into-force.html",
+    "https://en.wikipedia.org/wiki/Digital_Services_Tax_Act_(Canada)",
+    "https://www.pwc.com/ca/en/services/tax/publications/tax-insights/dst-act-is-now-law-2024.html"
+  ],
+  "repeal_note": "DST repealed June 29 2025 per Canadian government announcement. US-Canada trade negotiations restarted after repeal. CRA stated refunds would be issued once repeal legislation passed."
+    },
+    "country_name": "Canada",
+    "country_iso3": "CAN",
+    "regime_type": "dst",
+    "regime_framework": "oecd_dst",
+    "is_enacted": false,
+    "effective_date": "2024-06-28",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "tax_rate_pct": 3.0,
+    "global_revenue_threshold_usd": 825000000,
+    "local_revenue_threshold_usd": 14750000,
+    "local_currency_code": "CAD",
+    "local_currency_amount": 20000000,
+    "covered_services": "Online marketplace services, online advertising services, social media services, sale or licensing of user data",
+    "marketplace_applicability": true,
+    "treaty_risk_level": "critical",
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Penalties of CAD $20,000 per year for failure to register. Late filing penalties apply. DST repealed June 29, 2025 following US trade pressure under USMCA.",
+    "guidance_maturity": "nascent",
+    "regulatory_attention_level": "critical",
+    "complexity_score_base": 3,
+    "source_url": "https://www.canada.ca/en/services/taxes/excise-taxes-duties-and-levies/digital-services-tax.html",
+    "verbatim_quote": "The Government of Canada has introduced the digital services tax (DST). The DST requires foreign and domestic large businesses to pay tax on certain revenue earned from engaging with online users in Canada if they meet certain conditions.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-15",
+    "notes": "DST enacted June 28 2024 via Bill C-59 at 3% rate retroactive to January 1 2022. Repealed June 29 2025 following US-Canada trade dispute under USMCA. is_enacted set to false. complexity_score_base set low (3) to reflect repealed status. regulatory_attention_level critical due to ongoing US trade retaliation risk landscape."
+  }
+]

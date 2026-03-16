@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Nigeria",
+    "country_iso3": "NGA",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2026-01-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 7.5,
+    "registration_threshold_usd": 25000,
+    "local_currency_code": "NGN",
+    "local_currency_amount": 25000000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "FIRS/NRS will invoke mutual administrative assistance instruments to enforce, collect and recover VAT from non-resident suppliers that fail to account for or remit VAT due. Failure to register incurs penalties. The NRS may appoint collection agents including digital platforms and payment processors.",
+    "guidance_maturity": "developing",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.vatcalc.com/nigeria/nigeria-vat-on-goods-digital-services-jan-2021-for-non-residents/",
+    "verbatim_quote": "Intermediary platforms will be viewed as deemed sellers responsible for registering, invoicing, collecting and remitting VAT on sales completed through their platforms.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Nigeria Tax Act 2025 (NTA 2025) delayed full non-resident obligations to 1 January 2026. Digital services rules under simplified compliance regime were effective from 1 January 2022; goods from 1 January 2024. The USD 25,000 threshold applies to non-resident providers' annual turnover from Nigeria. The NGN 25,000,000 threshold applies to domestic resident registration. Marketplace/platform deemed supplier rules exist but are framed as a discretionary designation: the NRS 'may appoint' platforms as collection agents rather than an automatic deemed-supplier mandate. B2B reverse charge also applies so that non-resident suppliers do not charge VAT to Nigerian business customers. A Simplified Compliance Regime portal is being rolled out for non-resident registration and reporting."
+  }
+]

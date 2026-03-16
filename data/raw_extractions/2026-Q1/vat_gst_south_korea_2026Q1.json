@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "South Korea",
+    "country_iso3": "KOR",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2015-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": false,
+    "standard_rate_pct": 10,
+    "registration_threshold_usd": null,
+    "local_currency_code": "KRW",
+    "local_currency_amount": null,
+    "deemed_supplier_rules": true,
+    "edp_classification": false,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "1% of supply price for non-compliance with simplified VAT registration (effective 1 January 2024); late payment penalty of 3% of unpaid tax; late filing accrues 0.02% interest per day; foreign intermediaries failing to submit quarterly transaction statements face penalties of up to KRW 20 million (~USD 14,300) effective 1 July 2025; blocked marketplace sales and customs holds for unregistered non-residents.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://taxsummaries.pwc.com/republic-of-korea/corporate/other-taxes",
+    "verbatim_quote": "where the non-resident without having a domestic place of business provides the E-Services in South Korea through any of the following third parties ... the third party shall be deemed to provide the relevant E-Services in South Korea",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Deemed supplier rule codified in Article 53(2) of the VAT Act and Article 96(2) of its Enforcement Decree; applies to operators of open markets / online platforms facilitating e-services transactions. Effective date of 1 July 2015 covers both non-resident supplier registration and platform deemed-supplier obligations. From 1 July 2025, foreign digital intermediaries (marketplace operators, payment gateways, etc.) must additionally submit quarterly transaction statements to the Korean National Tax Service under amended Article 75 of the VAT Law; penalty for non-submission up to KRW 20 million. No VAT registration threshold exists for non-resident B2C digital service providers \u2014 registration is required from the first sale. B2B supplies handled via reverse charge. Import VAT on goods collected by customs authorities. Small domestic businesses with annual taxable sales up to KRW 48 million may qualify for a VAT exemption (domestic scheme, not applicable to non-residents)."
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Ireland",
+    "country_iso3": "IRL",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2021-07-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 23,
+    "registration_threshold_usd": null,
+    "local_currency_code": "EUR",
+    "local_currency_amount": 85000,
+    "deemed_supplier_rules": true,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "medium",
+    "penalty_operational_severity": "medium",
+    "penalties_description": "Fixed penalty of \u20ac4,000 for failing to submit a VAT return on time. Late payment interest charges range from 0.0274% to 0.0411% per day depending on the delay. Late VAT registration, errors, and late payments can all trigger penalties and interest.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 7,
+    "source_url": "https://www.numeral.com/blog/ireland-vat-rates-and-compliance; https://www.taxually.com/manuals/ireland; https://www.revenue.ie/en/vat/vat-registration/who-should-register-for-vat/vat-thresholds.aspx; https://www.vatcalc.com/eu/eu-marketplace-deemed-supplier-for-eu-sellers-vat-2025/",
+    "verbatim_quote": "Digital platforms such as Amazon and eBay may be considered deemed suppliers under Irish VAT law, which applies when a non-EU seller uses a platform to sell goods already located in Ireland, or when the value of goods sold to Irish customers is under \u20ac150.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Ireland implements the EU VAT Directive marketplace deemed supplier rules (Article 28 and the July 2021 EU e-commerce VAT reform) as an EU member state. Deemed supplier status applies: (1) when a non-EU seller uses a platform to sell goods already located in Ireland, or (2) for imported goods valued under \u20ac150 sold to Irish customers. The domestic goods registration threshold is \u20ac85,000 (goods) / \u20ac42,500 (services) as of 1 January 2025; the EU cross-border distance selling threshold is \u20ac10,000. The registration_threshold_usd is left null because the authoritative thresholds are denominated in EUR and a USD conversion would require inference. The local_currency_amount of 85,000 reflects the goods threshold (higher of the two domestic thresholds). The ViDA package may expand deemed supplier obligations further from 2028/2030. IOSS and OSS schemes are available for import VAT simplification. Standard VAT rate is 23%. Non-EU businesses must register from their first taxable supply with no threshold grace period."
+  }
+]

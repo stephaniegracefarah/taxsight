@@ -1,0 +1,31 @@
+[
+  {
+    "country_name": "Mexico",
+    "country_iso3": "MEX",
+    "regime_type": "vat_gst",
+    "regime_framework": "vat_gst_marketplace",
+    "is_enacted": true,
+    "effective_date": "2020-06-01",
+    "applies_to_platform": true,
+    "has_revenue_threshold": true,
+    "standard_rate_pct": 16,
+    "registration_threshold_usd": null,
+    "local_currency_code": "MXN",
+    "local_currency_amount": 300000,
+    "deemed_supplier_rules": false,
+    "edp_classification": true,
+    "b2c_scope": true,
+    "import_vat_rules": true,
+    "penalty_financial_severity": "high",
+    "penalty_operational_severity": "high",
+    "penalties_description": "If tax is not paid on time, the amount is adjusted for inflation to the date of actual payment, plus surcharges of 1.47% per month and a penalty between 55% and 70% of the adjusted amount. Non-compliant entities also risk platform blockage by SAT.",
+    "guidance_maturity": "mature",
+    "regulatory_attention_level": "high",
+    "complexity_score_base": 8,
+    "source_url": "https://www.avalara.com/us/en/vatlive/country-guides/north-america/mexico/mexican-vat-on-e-services.html",
+    "verbatim_quote": "There is a simplified intermediary reporting regime for those with incomes below MXN 300,000.",
+    "confidence_flag": "high",
+    "last_verified_date": "2026-03-16",
+    "notes": "Mexico uses a withholding model rather than a full deemed supplier model: platforms withhold 50% of VAT when the supplier is a Mexican resident individual with a valid RFC, and 100% when no RFC is provided or the supplier is non-resident. This is distinct from a pure deemed supplier rule (where the platform is treated as if it made the supply outright). The MXN 300,000 threshold applies only to third-party resident suppliers using the platform \u2014 it is a simplified reporting threshold for those suppliers, not a registration threshold for the platform operator itself; there is no registration threshold for platform operators or foreign digital service providers. Import VAT applies at 16% on goods imported into Mexico, with a de minimis of USD 50 CIF for non-USMCA shipments; as of August 2025, goods below USD 2,500 are subject to a 33.5% import duty for countries without a free trade agreement. The regime covers both B2B and B2C transactions. As of January 1, 2026, expanded platform withholding rules apply to business (legal entity) sellers as well. EDP (Electronic Distribution Platform) classification is used in Mexican law to describe intermediary platform operators subject to withholding obligations."
+  }
+]
