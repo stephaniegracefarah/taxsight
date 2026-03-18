@@ -23,7 +23,6 @@ Extract the following fields for each country's Digital Services Tax (DST):
 - penalties_description: text description
 - guidance_maturity: nascent/developing/mature
 - regulatory_attention_level: low/medium/high/critical
-- complexity_score_base: integer 1-10
 - source_url: the URL provided
 - verbatim_quote: exact quote from source supporting key fields
 - confidence_flag: high/medium/low

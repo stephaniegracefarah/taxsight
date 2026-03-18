@@ -20,12 +20,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators with Alabama marketplace sales in excess of $250,000 are required to collect tax on sales made by or on behalf of their third-party sellers.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Non-collecting seller use tax reporting: Yes. Source last updated January 31, 2025."
+    "notes": "Non-collecting seller use tax reporting: Yes. References Alabama Department of Revenue Simplified Sellers Use Tax (SSUT); Act 2018-539."
   },
   {
     "country_name": "Alaska",
@@ -48,12 +47,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
-    "verbatim_quote": "Although there's no statewide sales tax in Alaska, more than 100 local governments levy local sales taxes. Some of these now require marketplace facilitators to collect and remit their local sales taxes on behalf of third-party sellers. The collection obligation applies to marketplace facilitators with $100,000 or more in statewide gross sales of property, products, or services delivered into the state of Alaska in the current or previous calendar year. The collection requirement for marketplace facilitators is not in effect statewide.",
-    "confidence_flag": "high",
+    "verbatim_quote": "The collection obligation applies to marketplace facilitators with $100,000 or more in statewide gross sales of property, products, or services delivered into the state of Alaska in the current or previous calendar year. The collection requirement for marketplace facilitators is not in effect statewide.",
+    "confidence_flag": "medium",
     "last_verified_date": "2025-01-31",
-    "notes": "No statewide sales tax. Enforcement date varies by jurisdiction. Collection requirement is local, not statewide. Non-collecting seller use tax reporting: No."
+    "notes": "Enforcement date varies by jurisdiction. No statewide sales tax; over 100 local governments levy local sales taxes. Collection requirement is not statewide. Non-collecting seller use tax reporting: No."
   },
   {
     "country_name": "Arizona",
@@ -76,12 +74,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A business that has nexus with Arizona, operates an online marketplace, and makes online sales on behalf of third-party merchants is required to collect and remit Arizona transaction privilege tax on all sales made through the marketplace if its gross retail proceeds or income exceed $100,000 annually.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Original enforcement date September 20, 2016; updated effective October 1, 2019. Applies to transaction privilege tax, not traditional sales tax. Non-collecting seller use tax reporting: No."
+    "notes": "Originally effective September 20, 2016; updated effective October 1, 2019. Non-collecting seller use tax reporting: No. References HB 2757."
   },
   {
     "country_name": "Arkansas",
@@ -104,12 +101,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that sells or facilitates more than $100,000 in sales or at least 200 transactions of tangible personal property, taxable services, a digital code, or specified digital products for delivery into Arkansas in the previous or current calendar year must collect and remit sales or use tax on all sales made through the marketplace for delivery into Arkansas.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Threshold is $100,000 OR 200 transactions. Non-collecting seller use tax reporting: No."
+    "notes": "Threshold is $100,000 OR 200 transactions. Non-collecting seller use tax reporting: No. References SB 576."
   },
   {
     "country_name": "California",
@@ -132,12 +128,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "The collection requirement applies to in-state marketplaces and out-of-state marketplaces with sales of tangible personal property in California that exceed $500,000 in the current or preceding calendar year.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Non-collecting seller use tax reporting: No."
+    "notes": "Non-collecting seller use tax reporting: No. References AB 147 and SB 92."
   },
   {
     "country_name": "Colorado",
@@ -160,12 +155,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator with a physical presence in Colorado or economic nexus with the state must collect and remit sales or use tax on all sales to Colorado consumers made through the marketplace.",
     "confidence_flag": "medium",
     "last_verified_date": "2025-01-31",
-    "notes": "No explicit revenue or transaction threshold stated in source for marketplace facilitator law; requirement tied to physical presence or economic nexus. Non-collecting seller use tax reporting: Yes."
+    "notes": "No specific revenue threshold stated in this source for marketplace facilitator law; applies to those with physical presence or economic nexus. Non-collecting seller use tax reporting: Yes. References HB 10-1193."
   },
   {
     "country_name": "Connecticut",
@@ -188,12 +182,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators that facilitated retail sales of at least $250,000 during the prior 12-month period are required to collect and remit sales tax on behalf of their marketplace sellers.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Non-collecting seller use tax reporting: Yes."
+    "notes": "Non-collecting seller use tax reporting: Yes. References Public Act No. 18-152."
   },
   {
     "country_name": "Florida",
@@ -216,12 +209,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators that have a physical presence in Florida or facilitated retail sales of at least $100,000 during the previous calendar year are required to collect and remit sales tax on behalf of their marketplace sellers.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Excludes persons who solely provide travel agency services and, with certain exceptions, delivery network companies. Non-collecting seller use tax reporting: No."
+    "notes": "Excludes persons who solely provide travel agency services and, with certain exceptions, delivery network companies. Non-collecting seller use tax reporting: No. References Florida SB 50."
   },
   {
     "country_name": "Georgia",
@@ -244,12 +236,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that makes or facilitates taxable retail sales of $100,000 or more in aggregate in the previous or current calendar year is the retailer for each taxable retail sale it facilitates in Georgia on behalf of a marketplace seller.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "A franchisor is not considered a marketplace facilitator with respect to any dealer that is its franchisee. Non-collecting seller use tax reporting: No."
+    "notes": "A franchisor is not considered a marketplace facilitator with respect to any dealer that is its franchisee. Non-collecting seller use tax reporting: No. References HB 276."
   },
   {
     "country_name": "Hawaii",
@@ -272,12 +263,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that has physical or economic nexus with Hawaii must collect and remit sales tax on all sales into the state, including those by an unlicensed seller. Marketplace sellers may be liable for Hawaii general excise tax (GET) in some situations.",
-    "confidence_flag": "high",
+    "confidence_flag": "medium",
     "last_verified_date": "2025-01-31",
-    "notes": "Applies to general excise tax (GET), not traditional sales tax. Marketplace sellers may retain some liability in some situations. Non-collecting seller use tax reporting: Yes."
+    "notes": "No specific revenue threshold stated for marketplace facilitator law in this source; applies based on physical or economic nexus. Non-collecting seller use tax reporting: Yes. References SB396 SD1."
   },
   {
     "country_name": "Idaho",
@@ -300,12 +290,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators with a physical presence in Idaho and remote marketplace facilitators with more than $100,000 in combined sales into the state must collect and remit state tax on all sales into the state, their own and those by third-party sellers. Remote marketplaces are not responsible for collecting local sales tax.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Remote marketplaces are not responsible for collecting local sales tax. Non-collecting seller use tax reporting: No."
+    "notes": "Remote marketplaces not responsible for collecting local sales tax. Non-collecting seller use tax reporting: No. References HB 259."
   },
   {
     "country_name": "Illinois",
@@ -328,12 +317,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators are required to collect tax on sales made by or on behalf of their third-party sellers in Illinois if, in the preceding 12-month period, cumulative gross receipts from sales of tangible personal property to purchasers in Illinois by the marketplace facilitator and its marketplace sellers are $100,000 or more; or the marketplace facilitator and sellers cumulatively enter into 200 or more separate transactions for the sale of tangible personal property into Illinois.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Threshold is $100,000 OR 200 transactions, calculated cumulatively across facilitator and marketplace sellers. Non-collecting seller use tax reporting: No."
+    "notes": "Threshold is $100,000 OR 200 transactions. Non-collecting seller use tax reporting: No. References Public Act 101-0009 and Public Act 101-0604."
   },
   {
     "country_name": "Indiana",
@@ -356,12 +344,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators that make or facilitate sales in Indiana and meet the economic nexus thresholds of $100,000 in sales in Indiana must collect and remit sales tax on all taxable sales made through the marketplace.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Original enforcement date July 1, 2019; updated effective January 1, 2024. Also applies to lodging marketplaces. Non-collecting seller use tax reporting: No."
+    "notes": "Originally effective July 1, 2019; updated effective January 1, 2024. Also applies to lodging marketplaces. Non-collecting seller use tax reporting: No. References HB 1001."
   },
   {
     "country_name": "Iowa",
@@ -384,12 +371,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that meets the economic nexus threshold and makes or facilitates Iowa sales on behalf of itself or one or more marketplace sellers must collect and remit sales tax on each facilitated taxable Iowa sale.",
     "confidence_flag": "medium",
     "last_verified_date": "2025-01-31",
-    "notes": "Specific revenue or transaction threshold amounts not stated in source text; law references meeting the economic nexus threshold without specifying amounts. Non-collecting seller use tax reporting: No (Iowa DOR authorized but has not done so)."
+    "notes": "Specific revenue or transaction threshold amounts not stated in this source; references economic nexus threshold generally. Non-collecting seller use tax reporting: Iowa Department of Revenue is authorized but has not done so. References SF 2417."
   },
   {
     "country_name": "Kansas",
@@ -412,12 +398,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace providers that make or facilitate more than $100,000 in sales of taxable property or services in Kansas during the current or immediately preceding year must register, collect, and remit sales tax on each facilitated taxable sale.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "As of April 1, 2022, marketplace facilitators are also liable for 911 fees on prepaid wireless services. Non-collecting seller use tax reporting: No."
+    "notes": "As of April 1, 2022, marketplace facilitators also liable for 911 fees on prepaid wireless services. Non-collecting seller use tax reporting: No. References SB 50."
   },
   {
     "country_name": "Kentucky",
@@ -440,12 +425,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace providers that make or facilitate retail sales of tangible personal property, digital property, or services delivered or transferred electronically in Kentucky and meet the economic nexus threshold of $100,000 in sales or 200 or more separate transactions must register, collect, and remit sales tax on each facilitated taxable sale.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Threshold is $100,000 OR 200 transactions. Marketplace providers making their own sales must obtain two sales tax permits. Non-collecting seller use tax reporting: No."
+    "notes": "Threshold is $100,000 OR 200 transactions. Marketplace providers making their own sales must obtain two sales tax permits. Non-collecting seller use tax reporting: No. References HB 354."
   },
   {
     "country_name": "Louisiana",
@@ -468,12 +452,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that has economic nexus with Louisiana must collect and remit sales tax on all marketplace sales for delivery into the state. Marketplace facilitators should include all sales made through the platform when calculating the economic nexus threshold (more than $100,000 in sales of tangible personal property, electronically transferred property, or taxable services in the state).",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Original enforcement date July 1, 2020; updated effective August 1, 2023. Non-collecting seller use tax reporting: Yes."
+    "notes": "Originally effective July 1, 2020; updated effective August 1, 2023. Non-collecting seller use tax reporting: Yes. References Information Bulletin No. 18-006."
   },
   {
     "country_name": "Maine",
@@ -496,12 +479,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that has economic nexus with Maine must collect and remit sales tax on all marketplace sales for delivery into the state. Marketplace facilitators should include all sales made through the platform when calculating the economic nexus threshold (more than $100,000 in sales of tangible personal property, electronically transferred property, or taxable services in the state).",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Original enforcement date October 1, 2019; updated effective January 1, 2022. Non-collecting seller use tax reporting: No."
+    "notes": "Originally effective October 1, 2019; updated effective January 1, 2022. Non-collecting seller use tax reporting: No. References L.D. 1452."
   },
   {
     "country_name": "Maryland",
@@ -524,12 +506,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A marketplace facilitator that has an obligation to collect Maryland sales tax, sells or facilitates sales of tangible personal property into Maryland, and processes payments on behalf of sellers must collect and remit sales tax on all sales made through the marketplace for delivery into Maryland.",
-    "confidence_flag": "high",
+    "confidence_flag": "medium",
     "last_verified_date": "2025-01-31",
-    "notes": "No explicit revenue or transaction threshold stated in source. Waiver available if marketplace seller is a publicly traded communications company, parties have a written agreement, and seller is licensed as out-of-state vendor. Non-collecting seller use tax reporting: No."
+    "notes": "No specific revenue threshold stated in this source for marketplace facilitator law. A waiver of the collection requirement is available under specific conditions including publicly traded communications company seller, written agreement, and seller licensing. Non-collecting seller use tax reporting: No. References HB 1301 and Comptroller of Maryland Tax Alert 09-19."
   },
   {
     "country_name": "Massachusetts",
@@ -552,12 +533,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "A remote marketplace provider that makes or facilitates more than $100,000 in sales in the commonwealth in the current or prior taxable year must collect and remit tax on all taxable sales made through the marketplace in Massachusetts.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Applies to both remote and in-state marketplace facilitators exceeding $100,000. Non-collecting seller use tax reporting: No."
+    "notes": "Applies to both remote and non-remote marketplace facilitators exceeding $100,000 threshold. Non-collecting seller use tax reporting: No. References H. 4000."
   },
   {
     "country_name": "Michigan",
@@ -580,12 +560,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Economic nexus is established when, in the previous calendar year, a remote marketplace facilitator has more than $100,000 in gross receipts from direct and facilitated sales into Michigan, or at least 200 direct or facilitated transactions in the state.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Threshold is $100,000 OR 200 transactions. Applies to both in-state and remote facilitators with economic nexus. Non-collecting seller use tax reporting: No."
+    "notes": "Threshold is $100,000 OR 200 transactions. Applies to both in-state and remote facilitators with economic nexus. Non-collecting seller use tax reporting: No. References HB 4540 and HB 4542."
   },
   {
     "country_name": "Minnesota",
@@ -608,12 +587,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Economic nexus is established when a remote marketplace provider makes or facilitates more than $100,000 in sales or at least 200 transactions in the state during the prior 12-month period.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Original enforcement date October 1, 2018; amended October 1, 2019. Threshold is $100,000 OR 200 transactions. Non-collecting seller use tax reporting: No."
+    "notes": "Originally effective October 1, 2018; amended October 1, 2019. Threshold is $100,000 OR 200 transactions. Non-collecting seller use tax reporting: No. References HF 1 and HF 5."
   },
   {
     "country_name": "Mississippi",
@@ -636,12 +614,11 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
     "verbatim_quote": "Marketplace facilitators should include all sales made through the platform when calculating the economic nexus threshold (more than $250,000 in sales of tangible personal property or taxable services in the state). The law exempts third-party food delivery and includes an election for marketplace sellers with more than $1 billion in national revenue (including sales of affiliates and franchised entities) to directly collect sales and use tax.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Exempts third-party food delivery. Marketplace sellers with more than $1 billion in national revenue may elect to directly collect sales and use tax. Non-collecting seller use tax reporting: No."
+    "notes": "Law exempts third-party food delivery. Marketplace sellers with more than $1 billion in national revenue may elect to directly collect sales and use tax. Non-collecting seller use tax reporting: No. References HB 379."
   },
   {
     "country_name": "Missouri",
@@ -664,11 +641,10 @@
     "penalties_description": null,
     "guidance_maturity": null,
     "regulatory_attention_level": null,
-    "complexity_score_base": null,
     "source_url": "https://www.avalara.com/us/en/learn/guides/state-by-state-guide-to-marketplace-facilitator-laws.html",
-    "verbatim_quote": "A marketplace provider that makes or facilitates more than $100,000 in the state in the current or previous calendar year (determined quarterly) must collect and remit sales tax on behalf of its third-party sellers. This requirement does not apply to certain advertising services, travel agency services, or third-party payment processors.",
+    "verbatim_quote": "A marketplace provider that makes or facilitates more than $100,000 in the state in the current or previous calendar year (determined quarterly) must collect and remit sales tax on behalf of its third-party sellers.",
     "confidence_flag": "high",
     "last_verified_date": "2025-01-31",
-    "notes": "Threshold determined quarterly. Does not apply to certain advertising services, travel agency services, or third-party payment processors. Marketplace sellers relieved of duty to collect but may still need to register and report all Missouri sales. Non-collecting seller use tax reporting: No."
+    "notes": "Threshold determined quarterly. Does not apply to certain advertising services, travel agency services, or third-party payment processors. Marketplace sellers relieved of duty to collect but may still be required to register and report all Missouri sales. Non-collecting seller use tax reporting: No. References SB 153."
   }
 ]

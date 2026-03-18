@@ -50,6 +50,29 @@ COLUMNS = [
     "notes",
 ]
 
+
+def compute_complexity_score_base(row):
+    """Recency + Guidance Maturity score per TDD Decision 4."""
+    effective_date = row.get("effective_date")
+    guidance_maturity = row.get("guidance_maturity", "developing")
+
+    if effective_date is None:
+        base = 5
+    else:
+        year = int(str(effective_date)[:4])
+        if year >= 2022:
+            base = 10
+        elif year >= 2019:
+            base = 7
+        elif year >= 2015:
+            base = 4
+        else:
+            base = 2
+
+    modifier = {"nascent": 1, "developing": 0, "mature": -1}.get(guidance_maturity, 0)
+    return base + modifier
+
+
 def load_json(filepath):
     with open(filepath) as f:
         data = json.load(f)
@@ -57,9 +80,11 @@ def load_json(filepath):
         return [data]
     return data
 
+
 def build_obligation_id(row):
     iso3 = row.get("country_iso3", "").upper()
     return f"DST_{iso3}"
+
 
 def normalize_row(row):
     return {
@@ -85,13 +110,14 @@ def normalize_row(row):
         "penalties_description": row.get("penalties_description"),
         "guidance_maturity": row.get("guidance_maturity", "developing"),
         "regulatory_attention_level": row.get("regulatory_attention_level", "critical"),
-        "complexity_score_base": row.get("complexity_score_base"),
+        "complexity_score_base": compute_complexity_score_base(row),
         "source_url": row.get("source_url"),
         "verbatim_quote": row.get("verbatim_quote"),
         "confidence_flag": row.get("confidence_flag"),
         "last_verified_date": row.get("last_verified_date"),
         "notes": row.get("notes"),
     }
+
 
 def deduplicate(rows):
     """Remove duplicate country_iso3 entries, keeping first occurrence."""
@@ -103,6 +129,7 @@ def deduplicate(rows):
             seen.add(iso3)
             deduped.append(row)
     return deduped
+
 
 if __name__ == "__main__":
     all_rows = []

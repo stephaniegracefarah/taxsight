@@ -69,3 +69,36 @@ and VATCalc as suggested starting sources. Raw extractions deleted and regenerat
 **URL stability:** Government and regulatory URLs are unstable. All three original
 DAC7/UK/Canada URLs returned 404 during Phase 1 build. Quarterly refresh checklist
 includes URL validation as a manual step. See README limitations section.
+
+
+### Seed Data Quality Fixes — March 2026
+
+**`complexity_score_base` correction (all 4 regimes):**
+- Removed `complexity_score_base` from DST, marketplace_fac, and VAT/GST ETL
+  extraction prompts — it is a computed field, not an extracted one
+- Replaced `row.get("complexity_score_base")` in all 4 build scripts with
+  `compute_complexity_score_base()` — computed from `effective_date` and
+  `guidance_maturity` per TDD Decision 4 (Recency + Guidance Maturity dimension)
+- Removed hardcoded Revenue Proximity score of 8 from platform_reporting build
+  script — that was the wrong dimension; `complexity_score_base` is Recency +
+  Guidance Maturity for all four regimes consistently
+- All 4 seed CSVs rebuilt and reloaded: 18 DST, 48 marketplace_fac,
+  29 platform_reporting, 34 VAT/GST (129 rows total)
+
+**Marketplace facilitator threshold source addition:**
+- Original extraction used Avalara marketplace facilitator guide only — this page
+  does not state explicit revenue thresholds for 8 states (CO, HI, IA, MD, NJ,
+  PR, TX, DC)
+- Added Avalara economic nexus guide as second source:
+  https://www.avalara.com/us/en/learn/guides/state-by-state-guide-economic-nexus-laws.html
+- Extraction now runs 4 passes: marketplace fac guide (A-M, N-W) + economic nexus
+  guide (A-M, N-W). New prompt: `marketplace_fac_en_extraction_v1.txt`
+- Build script updated with `merge_thresholds()` logic:
+  - IA patched to `revenue_threshold_usd=100000`, `has_revenue_threshold=True`
+  - CO, HI, MD, NJ, PR, TX, DC retain `has_revenue_threshold=False` and null
+    `revenue_threshold_usd` — marketplace fac page is authoritative for
+    facilitator-specific obligations; economic nexus threshold noted in `notes`
+    field for Claude's benefit with explicit verification flag
+  - TX correctly shows economic nexus threshold of $500,000 (not $100,000)
+- Quarterly refresh now runs 4 marketplace_fac extractions instead of 2
+
