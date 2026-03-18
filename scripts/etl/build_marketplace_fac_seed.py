@@ -63,7 +63,7 @@ COLUMNS = [
 def compute_complexity_score_base(row):
     """Recency + Guidance Maturity score per TDD Decision 4."""
     effective_date = row.get("effective_date")
-    guidance_maturity = row.get("guidance_maturity", "developing")
+    guidance_maturity = row.get("guidance_maturity") or "developing"
 
     if effective_date is None:
         base = 5
@@ -79,7 +79,7 @@ def compute_complexity_score_base(row):
             base = 2
 
     modifier = {"nascent": 1, "developing": 0, "mature": -1}.get(guidance_maturity, 0)
-    return base + modifier
+    return max(1, min(10, base + modifier))
 
 
 def load_json(filepath):
@@ -116,8 +116,8 @@ def normalize_row(row):
         "penalty_financial_severity": row.get("penalty_financial_severity", "medium"),
         "penalty_operational_severity": row.get("penalty_operational_severity", "low"),
         "penalties_description": row.get("penalties_description"),
-        "guidance_maturity": row.get("guidance_maturity", "mature"),
-        "regulatory_attention_level": row.get("regulatory_attention_level", "medium"),
+        "guidance_maturity": row.get("guidance_maturity") or "mature",
+        "regulatory_attention_level": row.get("regulatory_attention_level") or "medium",
         "complexity_score_base": compute_complexity_score_base(row),
         "source_url": row.get("source_url"),
         "verbatim_quote": row.get("verbatim_quote"),

@@ -1,0 +1,14 @@
+version: 2
+
+seeds:
+  - name: marketplace_fac
+    config:
+      column_types:
+        revenue_threshold_usd: BIGINT
+        transaction_threshold: BIGINT
+        complexity_score_base: INTEGER
+        guidance_maturity: VARCHAR
+        regulatory_attention_level: VARCHAR
+        penalties_description: VARCHAR
+        platform_vs_seller_liability: VARCHAR
+        filing_frequency: VARCHAR

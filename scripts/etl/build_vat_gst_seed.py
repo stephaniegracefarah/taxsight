@@ -64,7 +64,7 @@ def compute_complexity_score_base(row):
             base = 2
 
     modifier = {"nascent": 1, "developing": 0, "mature": -1}.get(guidance_maturity, 0)
-    return base + modifier
+    return max(1, min(10, base + modifier))
 
 
 def load_json(filepath):
